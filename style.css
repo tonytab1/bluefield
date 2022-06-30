@@ -22,7 +22,7 @@ body {
     background: rgba(255, 255, 255, .7);
     color: rgba(0, 0, 0, 0.8);
     padding: 10px 10px;
-    font-size: 8em;
+    font-size: 6rem;
     line-height: .8em;
     width: 350px;
     margin-top: 40px;
@@ -41,10 +41,10 @@ h1 {
 h2 {
     background: rgba(0, 67, 137, 0.9);
     color: rgb(255, 255, 255);
-    font-size: 2.5em;
+    font-size: 2rem;
     width: 350px;
     padding: 10px 10px;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 button {
@@ -74,18 +74,29 @@ button:hover {
     margin-right: 8px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 950px) {
     .main {
         align-items: flex-start;
         padding: 40px 40px;
     }
+    #house-num {
+        background: rgba(255, 255, 255, .7);
+        color: rgba(0, 0, 0, 0.8);
+        padding: 10px 10px;
+        font-size: 8rem;
+    }
     h1 {
         color: rgba(0, 0, 0, 0.8);
-        font-size: 8em;
+        font-size: 8rem;
         line-height: .8em;
         margin-top: 10px;
         margin-bottom: 0px;
         letter-spacing: 20px;
         width: auto;
+    }
+    h2 {
+        display: block;
+        margin-top: 10px;
+        font-size: 2.5rem;
     }
 }
