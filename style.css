@@ -21,31 +21,21 @@ body {
 #house-num {
     background: rgba(255, 255, 255, .7);
     color: rgba(0, 0, 0, 0.8);
-    padding: 7px 10px;
+    padding: 10px 10px;
     font-size: 8em;
     line-height: .8em;
     width: 350px;
     margin-top: 40px;
-    margin-bottom: 0px;
-}
-
-#call {
-    color: rgb(255, 255, 255);
-    font-size: 2em;
-    background: rgba(27, 27, 27, 0.7);
-    width: 350px;
-    margin-top: 10px;
 }
 
 h1 {
     background: rgba(255, 255, 255, .7);
     color: rgba(0, 0, 0, 0.8);
-    padding: 7px 10px;
+    padding: 10px 10px;
     line-height: .8em;
     width: 350px;
     font-size: 3.5em;
-    margin-top: 0px;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 h2 {
@@ -89,21 +79,13 @@ button:hover {
         align-items: flex-start;
         padding: 40px 40px;
     }
-    button {
-        font-size: 1.5em;
-    }
     h1 {
         color: rgba(0, 0, 0, 0.8);
         font-size: 8em;
         line-height: .8em;
-        margin-top: 1vh;
+        margin-top: 10px;
         margin-bottom: 0px;
         letter-spacing: 20px;
         width: auto;
-    }
-    #call {
-        position: absolute;
-        bottom: 10px;
-        left: 50px;
     }
 }
