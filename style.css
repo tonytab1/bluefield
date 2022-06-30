@@ -61,7 +61,7 @@ button {
     margin-bottom: 16px;
     position: relative;
     top: 0;
-    transition: top ease 0.5s;
+    transition: top ease 0.2s;
 }
 
 button:hover {
